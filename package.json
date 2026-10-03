@@ -1,0 +1,27 @@
+{
+  "name": "simple-iot-world",
+  "version": "1.0.0",
+  "description": "Simple IoT World - ESP8266 DHT11 LCD LED IoT Web Application deployable on Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "iot",
+    "esp8266",
+    "express",
+    "dht11",
+    "lcd1602",
+    "render"
+  ],
+  "author": "Rohit and Team, Dept of ETC, SB Jain, Nagpur",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
